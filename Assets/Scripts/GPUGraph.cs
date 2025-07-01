@@ -73,7 +73,6 @@ public class GPUGraph : MonoBehaviour
 	private void OnEnable()
 	{
 		positionsBuffer = new ComputeBuffer(maxResolution * maxResolution, 3 * 4);
-		Debug.Log("OnEnable Called");
 	}
 
 	private void OnDisable()
